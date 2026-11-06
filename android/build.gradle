@@ -57,12 +57,6 @@ android {
     defaultConfig {
         minSdk = 21
         targetSdk = 36
-        consumerProguardFiles 'consumer-proguard-rules.pro'
-    }
-
-    dependencies {
-        // Keep major-only range per repo guidelines.
-        implementation("com.facebook.android:facebook-android-sdk:[19.0,20.0)")
     }
 }
 
